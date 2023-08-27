@@ -7,8 +7,8 @@ const Contact = () => {
         <h1>Contact Us</h1>
         <p>If you have any questions or comments, please email us at:</p>
         <p>
-          <a href="mailto:contact@moopa.live?subject=[Moopa]%20-%20Your%20Subject">
-            contact@moopa.live
+          <a href="mailto:contact@animetv7.com?subject=[ANIMETV7]%20-%20Your%20Subject">
+            contact@animetv7.com
           </a>
         </p>
       </div>

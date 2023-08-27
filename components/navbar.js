@@ -42,7 +42,7 @@ function Navbar(props) {
     <header className={`${props.className}`}>
       <div className="flex h-16 w-auto items-center justify-between px-5 lg:mx-auto lg:w-[80%] lg:px-0 text-[#dbdcdd]">
         <div className="pb-2 font-outfit text-4xl font-semibold lg:block text-white">
-          <Link href={`/${lang}/`}>moopa</Link>
+          <Link href={`/${lang}/`}>ANIMETV7</Link>
         </div>
 
         {/* Mobile Hamburger */}
@@ -111,7 +111,7 @@ function Navbar(props) {
                     href={`/${lang}/`}
                     className="font-karla font-bold text-[#8BA0B2] group-hover:text-action"
                   >
-                    home
+                    Home
                   </Link>
                 </button>
                 <button className="group flex flex-col items-center">
@@ -135,7 +135,7 @@ function Navbar(props) {
                     href={`/${lang}/about`}
                     className="font-karla font-bold text-[#8BA0B2] group-hover:text-action"
                   >
-                    about
+                    About
                   </Link>
                 </button>
                 <button className="group flex gap-[1.5px] flex-col items-center ">
@@ -161,7 +161,7 @@ function Navbar(props) {
                     href={`/${lang}/search/anime`}
                     className="font-karla font-bold text-[#8BA0B2] group-hover:text-action"
                   >
-                    search
+                    Search
                   </Link>
                 </button>
                 {session ? (
@@ -179,7 +179,7 @@ function Navbar(props) {
                       </svg>
                     </div>
                     <h1 className="font-karla font-bold text-[#8BA0B2] group-hover:text-action">
-                      logout
+                      Logout
                     </h1>
                   </button>
                 ) : (
@@ -197,7 +197,7 @@ function Navbar(props) {
                       </svg>
                     </div>
                     <h1 className="font-karla font-bold text-[#8BA0B2] group-hover:text-action">
-                      login
+                      Login
                     </h1>
                   </button>
                 )}
@@ -240,7 +240,7 @@ function Navbar(props) {
                 href={`/${lang}/`}
                 className="p-2 transition-all duration-100 hover:text-orange-600"
               >
-                home
+                Home
               </Link>
             </li>
             <li>
@@ -248,7 +248,7 @@ function Navbar(props) {
                 href={`/${lang}/about`}
                 className="p-2 transition-all duration-100 hover:text-orange-600"
               >
-                about
+                About
               </Link>
             </li>
             <li>
@@ -256,7 +256,7 @@ function Navbar(props) {
                 href={`/${lang}/search/anime`}
                 className="p-2 transition-all duration-100 hover:text-orange-600"
               >
-                search
+                Search
               </Link>
             </li>
             {status === "loading" ? (

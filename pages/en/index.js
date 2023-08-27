@@ -268,25 +268,25 @@ export default function Home({ detail, populars, sessions, upComing }) {
   return (
     <Fragment>
       <Head>
-        <title>Moopa</title>
+        <title>ANIMETV7</title>
         <meta charSet="UTF-8"></meta>
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="title" content="Moopa" />
+        <meta name="title" content="ANIMETV7" />
         <meta
           name="description"
-          content="Discover your new favorite anime or manga title! Moopa offers a vast library of high-quality content, accessible on multiple devices and without any interruptions. Start using Moopa today!"
+          content="Discover your new favorite anime or manga title! ANIMETV7 offers a vast library of high-quality content, accessible on multiple devices and without any interruptions. Start using ANIMETV7 today!"
         />
         <meta
           name="twitter:title"
-          content="Moopa - Free Anime and Manga Streaming"
+          content="ANIMETV7 - Free Anime and Manga Streaming"
         />
         <meta
           name="twitter:description"
-          content="Discover your new favorite anime or manga title! Moopa offers a vast library of high-quality content, accessible on multiple devices and without any interruptions. Start using Moopa today!"
+          content="Discover your new favorite anime or manga title! ANIMETV7 offers a vast library of high-quality content, accessible on multiple devices and without any interruptions. Start using ANIMETV7 today!"
         />
         <meta
           name="twitter:image"
-          content="https://beta.moopa.live/preview.png"
+          content="https://media.discordapp.net/attachments/1140705701556146286/1140705735953633320/image.png"
         />
 
         <link rel="icon" href="/c.svg" />
